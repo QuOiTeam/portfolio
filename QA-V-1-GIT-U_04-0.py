@@ -98,7 +98,7 @@ if not os.path.exists("user.json"):
 @bot.event
 async def on_message(message):
     
-    BADWORDS = ["пидор", "пидорок", "пидорас", "шлюха", "шлюшка", "шлюха", "негр", "негритянка", "негрила", "нигер", "нигерс"]
+    BADWORDS = ["ban words"]
     LINKS = ["https", "https", "www.", "://", ".org", ".ru", ".su", ".net", ".com", ".shop"]
     WARN = BADWORDS + LINKS
     
@@ -219,4 +219,4 @@ async def server(inter):
 
 # Запуск
 
-bot.run(token)
+bot.run(git-token)
